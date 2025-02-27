@@ -1,4 +1,0 @@
-Math Problem 1
-
-Which of the following functions are increasing? Eventually NonDecreasing? If you remember techniques from calculus, you can make use of those.
-
