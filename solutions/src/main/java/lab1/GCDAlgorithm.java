@@ -1,4 +1,4 @@
-package org.example;
+package lab1;
 
 public class GCDAlgorithm {
     public static int findGCD(int m, int n) {

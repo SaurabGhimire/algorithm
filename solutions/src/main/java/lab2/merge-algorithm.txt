@@ -1,0 +1,16 @@
+merge(arr1, arr2):
+    initialize new list : length of arr1 + length of arr2
+    let left = 0, right = 0
+
+    while left < length(arr1) AND right < length(arr2):
+        if arr1[left] < arr2[right]:
+            arr1[left] to mergedList
+            left increment
+        else:
+            arr2[right] to mergedList
+            right increment
+
+    append remaining elements of arr1 to mergedList
+    append remaining elements of arr2 to mergedList
+
+    return mergedList
