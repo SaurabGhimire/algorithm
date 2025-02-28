@@ -1,16 +1,16 @@
-merge(arr1, arr2):
-    initialize new list : length of arr1 + length of arr2
-    let left = 0, right = 0
+Algorithm: Merge(A, B)
+Input: Two sorted lists A and B
+Output: A sorted list L containing all elements of A and B
 
-    while left < length(arr1) AND right < length(arr2):
-        if arr1[left] < arr2[right]:
-            arr1[left] to mergedList
-            left increment
-        else:
-            arr2[right] to mergedList
-            right increment
+L ← new list
+while (A is not empty AND B is not empty) do
+    if (A.firstElement ≤ B.firstElement) then
+        L.add(A.currentElement)
+    else
+        L.add(B.currentElement)
 
-    append remaining elements of arr1 to mergedList
-    append remaining elements of arr2 to mergedList
+while (A is not empty) append A to L
 
-    return mergedList
+while (B is not empty) append B to L
+
+return C
