@@ -1,0 +1,22 @@
+Instructions for using the sorting environment.
+
+1. Create a workspace and a project (if you are working with Eclipse).
+
+2. After unzipping sort_environment.zip,
+import the sort_environment package into your project.
+There should be no compiler errors.
+
+3. In the sortroutines package, you will find four Java classes --
+these are four sorting routines; each is a subclass of the
+class Sorter (contained in the runtime package). 
+
+4. You tell the sort environment that you want to run one or more
+of these sorting classes by typing the name of the class 
+in the text file sorters_to_be_run.txt -- this text file already
+contains examples of how this is done.
+
+5. To launch the sort environment, run the main method in the class
+SortTester, in the runtime package. SortTester will generate a bunch
+of random arrays and will run each of the requested sorting classes
+on this input. The output of SortTester is a display of the running times
+of each of the sorting algorithms that were run, from fastest to slowest.
